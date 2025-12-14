@@ -13,7 +13,9 @@ public class CommandLineArguments {
             System.out.println(args[i]);
             a=a+Integer.parseInt(args[i]);
         }
-                    System.out.println("value of a: "+a);
+                    System.out.println("Sum of arguments is : "+a);
+                    System.out.println("Average of arguments is : "+a/args.length);
+
 
     }
 }
